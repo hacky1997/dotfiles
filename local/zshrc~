@@ -17,8 +17,7 @@ export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 alias -r g='git'
 alias -r v='vim'
-alias -r hg='history | grep -i'
-alias -r h='history'
+alias -r h='history | grep -i'
 alias -r p='ps ax | grep -v grep | grep -i'
 alias -r fjson='python -m json.tool'
 alias -r tm='tmux attach || tmux new'
