@@ -13,5 +13,7 @@
 	st = status
 	lo = log --pretty=format:'%h | %ad | %s%d [%an]' --graph --date=iso
 	ds = diff --staged
+	ad = add .
+	pu = push
 [push]
 	default = simple
